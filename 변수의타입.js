@@ -7,3 +7,10 @@ console.log(typeof arr);
 // 2) string
 // 3) number
 // 4) object
+
+// 자바스크립트 변수의 타입
+
+console.log(typeof 12345);
+// 원시 타입
+
+// 참조 타입

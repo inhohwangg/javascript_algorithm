@@ -1,6 +1,6 @@
-const n = 2;
+const n = 6;
 
-if (n % 3 === 0) {
+if (n % 3 === 0 && n !== 0) {
   console.log("짝");
 } else {
   console.log(n);

@@ -1,22 +1,9 @@
-// 나의 풀이
-// 게임 캐릭터 클래스 만들기
-class Wizard {
-  constructor(health, mana, armor) {
-    this.health = health;
-    this.mana = mana;
-    this.armor = armor;
-  }
-  attack() {
-    return console.log("파이어볼");
-  }
-}
+let n = "176 156 155 165 166 169";
+n.split(" ").join(" ") === n.split(" ").sort().join(" ")
+  ? console.log("YES")
+  : console.log("NO");
 
-const x = new Wizard(545, 210, 10);
-console.log(x.health, x.mana, x.armor);
-x.attack();
-
-// 출력
-// 545 210 10
-// 파이어볼
-
-// 강의 풀이
+let n2 = "155 156 165 166 169 176";
+n2.split(" ").join(" ") === n2.split(" ").sort().join(" ")
+  ? console.log("YES")
+  : console.log("NO");
